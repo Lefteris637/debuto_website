@@ -1,0 +1,89 @@
+body{
+    font-family: arial;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(214, 75, 75);
+    color: white;
+    padding: 20px;
+}
+
+.background{
+    background: url("https://images.unsplash.com/photo-1550547660-d9450f859349") no-repeat center/cover;
+    height: 60vh;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.order{
+    background-color: rgb(214, 75, 75);
+    border: none;
+    color: white;
+    width: 116px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.crepes{
+    background-color: rgb(223, 223, 223);
+    width: 300px;
+    height: 130px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    margin-left: 50px;
+}
+
+.burgers{
+    background-color: rgb(223, 223, 223);
+    width: 300px;
+    height: 130px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    margin-left: 370px;
+    margin-top: -130px;
+}
+
+.sweets{
+    background-color: rgb(223, 223, 223);
+    width: 300px;
+    height: 130px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    margin-left: 690px;
+    margin-top: -130px;
+}
+
+.coffee{
+    background-color: rgb(223, 223, 223);
+    width: 300px;
+    height: 130px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    margin-left: 1010px;
+    margin-top: -130px;
+}
+
+.about-header{
+    margin-top: 100px;
+}
+
+.contact-header{
+    margin-top: 100px;
+}
